@@ -39,7 +39,7 @@ section#redes-sociais img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.549);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.69);
 }
 section#redes-sociais{
     position: relative;
@@ -50,4 +50,15 @@ section#redes-sociais{
 #container{
     position: absolute;
     right: 20px;
+}
+#redes-sociais img:hover{
+    box-shadow: 2px 2px 9px rgba(153, 237, 8, 0.847);
+}
+.botao{
+    transition: 0.5s;
+}
+.botao:hover{
+    animation-delay: 10s;
+    translate: -8% -8%;
+    animation-delay: 3s;
 }
